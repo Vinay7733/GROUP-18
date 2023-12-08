@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2009, 2023 Tasktop Technologies and others.
+ 
+    This program and the accompanying materials are made available under the
+    terms of the Eclipse Public License v. 2.0 which is available at
+    https://www.eclipse.org/legal/epl-2.0
+ 
+    SPDX-License-Identifier: EPL-2.0
+
+    Contributors:
+         Tasktop Technologies - initial API and implementation
+          ArSysOp - ongoing support
+ -->
+<feature
+      id="org.eclipse.mylyn.context.feature"
+      label="%featureName"
+      version="4.0.0.v20230804-1109"
+      provider-name="%providerName"
+      plugin="org.eclipse.mylyn.context.core">
+
+   <description url="http://eclipse.org/mylyn">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.mylyn.tasks.feature" version="4.0.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.mylyn.context.core"
+         download-size="128"
+         install-size="268"
+         version="4.0.0.v20230804-1109"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.context.ui"
+         download-size="166"
+         install-size="334"
+         version="4.0.0.v20230804-1109"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.resources.ui"
+         download-size="70"
+         install-size="133"
+         version="4.0.0.v20230804-1109"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.context.tasks.ui"
+         download-size="111"
+         install-size="231"
+         version="4.0.0.v20230804-1109"
+         unpack="false"/>
+
+</feature>

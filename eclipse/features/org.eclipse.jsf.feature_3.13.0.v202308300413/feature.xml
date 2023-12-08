@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2010, 2019 IBM Corporation and others.
+    This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License 2.0
+    which accompanies this distribution, and is available at
+    https://www.eclipse.org/legal/epl-2.0/
+
+    SPDX-License-Identifier: EPL-2.0
+
+    Contributors:
+        IBM Corporation - initial API and implementation
+ -->
+<feature
+      id="org.eclipse.jsf.feature"
+      label="%name"
+      version="3.13.0.v202308300413"
+      provider-name="%provider"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jst.jsf.common"
+         download-size="693"
+         install-size="1448"
+         version="1.6.0.v202303190717"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.common.runtime"
+         download-size="89"
+         install-size="157"
+         version="1.5.0.v202303190717"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.common.ui"
+         download-size="302"
+         install-size="587"
+         version="1.7.0.v202303190717"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.core"
+         download-size="1197"
+         install-size="2603"
+         version="1.9.1.v202308300413"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.facelet.core"
+         download-size="664"
+         install-size="2597"
+         version="1.5.0.v202308300413"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.facelet.ui"
+         download-size="52"
+         install-size="114"
+         version="1.5.0.v202308300413"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.facesconfig"
+         download-size="1214"
+         install-size="2914"
+         version="1.6.0.v202303190717"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.facesconfig.ui"
+         download-size="943"
+         install-size="1993"
+         version="1.7.0.v202305071652"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.ui"
+         download-size="273"
+         install-size="579"
+         version="1.7.0.v202303190717"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsf.standard.tagsupport"
+         download-size="200"
+         install-size="514"
+         version="1.6.0.v202303190717"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jsf.branding"
+         download-size="24"
+         install-size="28"
+         version="3.5.1.v201902121810"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wildwebdeveloper.embedder.node.feature"
+      label="%name"
+      version="1.0.6.202308092312"
+      provider-name="Eclipse Wild Web Developer project">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node"
+         download-size="19"
+         install-size="31"
+         version="1.0.2.202212140804"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.linux.x86_64"
+         os="linux"
+         ws="gtk"
+         arch="x86_64"
+         download-size="43151"
+         install-size="43390"
+         version="1.0.6.202308092312"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.linux.aarch64"
+         os="linux"
+         ws="gtk"
+         arch="aarch64"
+         download-size="42996"
+         install-size="43249"
+         version="1.0.6.202308092312"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.win32.x86_64"
+         os="win32"
+         ws="win32"
+         arch="x86_64"
+         download-size="27657"
+         install-size="28756"
+         version="1.0.6.202308092312"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.macos.aarch64"
+         os="macosx"
+         arch="aarch64"
+         download-size="39210"
+         install-size="39476"
+         version="1.0.6.202308092312"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.wildwebdeveloper.embedder.node.macos.x86_64"
+         os="macosx"
+         arch="x86_64"
+         download-size="40781"
+         install-size="41057"
+         version="1.0.6.202308092312"
+         fragment="true"/>
+
+</feature>

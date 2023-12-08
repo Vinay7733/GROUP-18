@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.equinox.p2.rcp.feature"
+      label="%featureName"
+      version="1.4.2100.v20230814-2013"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.equinox.p2.core.feature"
+         version="1.6.1900.v20230814-2013"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui"
+         download-size="698"
+         install-size="1367"
+         version="2.8.100.v20230728-2010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.sdk.scheduler"
+         download-size="109"
+         install-size="219"
+         version="1.6.100.v20230630-1506"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.updatechecker"
+         download-size="20"
+         install-size="31"
+         version="1.4.100.v20230630-1506"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.ui"
+         download-size="172"
+         install-size="321"
+         version="1.4.0.v20230728-2008"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.sdk"
+         download-size="80"
+         install-size="160"
+         version="1.3.100.v20230728-2010"
+         unpack="false"/>
+
+</feature>

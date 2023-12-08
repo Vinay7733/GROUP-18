@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.m2e.logback.feature"
+      label="%featureName"
+      version="2.2.0.20230819-1220"
+      provider-name="%providerName"
+      plugin="org.eclipse.m2e.core">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <requires>
+      <!-- This is only necessary until Aries can handle the absence of the servlet-api for logback:
+        https://github.com/apache/aries/pull/233 -->
+      <import plugin="jakarta.servlet-api" version="5.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.m2e.logback"
+         download-size="22"
+         install-size="40"
+         version="2.2.0.20230625-0847"
+         fragment="true"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>
